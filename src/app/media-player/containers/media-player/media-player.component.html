@@ -1,0 +1,14 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <media-player-playlist></media-player-playlist>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <media-player-navbar></media-player-navbar>
+    <main>
+      <section>
+        <router-outlet></router-outlet>
+      </section>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<media-player-player></media-player-player>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="skipPreviousIcon" datatype="html">
+        <source>Skip previous icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Skip previous icon</note>
+        <note priority="1" from="meaning">skip previous icon</note>
+      </trans-unit>
+      <trans-unit id="previousButton" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">The button to skip to previous</note>
+        <note priority="1" from="meaning">previousButton</note>
+      </trans-unit>
+      <trans-unit id="playIcon" datatype="html">
+        <source>Play icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">Play icon</note>
+        <note priority="1" from="meaning">play icon</note>
+      </trans-unit>
+      <trans-unit id="playButton" datatype="html">
+        <source>Play</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">The play button</note>
+        <note priority="1" from="meaning">playButton</note>
+      </trans-unit>
+      <trans-unit id="skipNextIcon" datatype="html">
+        <source>Skip next icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Skip next icon</note>
+        <note priority="1" from="meaning">skip next icon</note>
+      </trans-unit>
+      <trans-unit id="nextButton" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/player/containers/player/player.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">The button to skip to next</note>
+        <note priority="1" from="meaning">nextButton</note>
+      </trans-unit>
+      <trans-unit id="playlistQueueIcon" datatype="html">
+        <source>Playlist icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/playlist/containers/playlist/playlist.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Playlist queue icon</note>
+        <note priority="1" from="meaning">playlist queue icon</note>
+      </trans-unit>
+      <trans-unit id="loginButton" datatype="html">
+        <source>
+      Login
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/containers/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">The button used by the user to login</note>
+        <note priority="1" from="meaning">login button</note>
+      </trans-unit>
+      <trans-unit id="sourceCodeMenuItem" datatype="html">
+        <source>Source code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/containers/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">The item for the source code option in the menu</note>
+        <note priority="1" from="meaning">source code menu item</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

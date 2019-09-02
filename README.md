@@ -1,27 +1,24 @@
-# AngularMediaPlayer
+# Angular Media Player
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0-next.0.
+## Angular Material
 
-## Development server
+[Documentation](https://material.angular.io/)
+[The Missing Guide to Angular Material](https://ultimatecourses.com/blog/the-missing-guide-to-angular-material)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Step 1: ng add @angular/material (Custom Theme, HammerJS and Animations)
+- Step 2: modify custom theme colors (primary, accent, warn) from styles.scss
+- Step 3: modify che font from Roboto to Roboto Mono from index.html and styles.scss
+- Step 4: create a Material module that will import (and export) a variety of common angular material modules that we can then import into our other app modules
 
-## Code scaffolding
+## Angular i18n localization
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Documentation](https://angular.io/guide/i18n)
+[XLF Merge Tool](https://xlftool.com/)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Step 1: Apply the i18n directives for text to translate
+- Step 2: Create a npm script 'extract' like: "extract": "ng xi18n --output-path=src/locale"
+- Step 3: Generate the translation file with 'npm run extract'
+- Step 4: Make a copy of the messages.xlf file, specifying the locale
+- Step 5: In the messages.LOCALEID.xlf file, duplicate all source nodes, changing the tag in target. You can now translate the text inside the target node
+- Step 6: Add serve and build configurations for the new locale
+- Step 7: Create new npm scripts for serving and building the Angular app with the new locale
