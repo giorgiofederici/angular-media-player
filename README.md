@@ -2,7 +2,7 @@
 
 ## Angular Material
 
-[Documentation](https://material.angular.io/)
+[Documentation](https://material.angular.io/)  
 [The Missing Guide to Angular Material](https://ultimatecourses.com/blog/the-missing-guide-to-angular-material)
 
 - Step 1: ng add @angular/material (Custom Theme, HammerJS and Animations)
@@ -12,7 +12,7 @@
 
 ## Angular i18n localization
 
-[Documentation](https://angular.io/guide/i18n)
+[Documentation](https://angular.io/guide/i18n)  
 [XLF Merge Tool](https://xlftool.com/)
 
 - Step 1: Apply the i18n directives for text to translate
