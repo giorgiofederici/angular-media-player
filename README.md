@@ -2,8 +2,8 @@
 
 ## Angular Material
 
-- [Documentation](https://material.angular.io/)
-- [The Missing Guide to Angular Material](https://ultimatecourses.com/blog/the-missing-guide-to-angular-material)
+[Documentation](https://material.angular.io/)  
+[The Missing Guide to Angular Material](https://ultimatecourses.com/blog/the-missing-guide-to-angular-material)
 
 - Step 1: ng add @angular/material (Custom Theme, HammerJS and Animations)
 - Step 2: modify custom theme colors (primary, accent, warn) from styles.scss
@@ -12,8 +12,8 @@
 
 ## Angular i18n localization
 
-- [Documentation](https://angular.io/guide/i18n)
-- [XLF Merge Tool](https://xlftool.com/)
+[Documentation](https://angular.io/guide/i18n)  
+[XLF Merge Tool](https://xlftool.com/)
 
 - Step 1: Apply the i18n directives for text to translate
 - Step 2: Create a npm script 'extract' like: "extract": "ng xi18n --output-path=src/locale"
