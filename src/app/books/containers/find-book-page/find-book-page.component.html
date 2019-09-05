@@ -1,0 +1,8 @@
+<mp-book-search
+  [query]="searchQuery$ | async"
+  [searching]="loading$ | async"
+  [error]="error$ | async"
+  (search)="search($event)"
+>
+</mp-book-search>
+<mp-book-preview-list [books]="books$ | async"> </mp-book-preview-list>

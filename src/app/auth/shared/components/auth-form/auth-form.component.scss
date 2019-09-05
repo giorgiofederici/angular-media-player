@@ -1,0 +1,19 @@
+mat-card {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.auth-form {
+  &__toggle {
+    margin-left: -16px;
+    margin-top: 15px;
+  }
+  .loginError {
+    padding: 16px;
+    width: 300px;
+    color: white;
+    background-color: red;
+  }
+}

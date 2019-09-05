@@ -22,3 +22,26 @@
 - Step 5: In the messages.LOCALEID.xlf file, duplicate all source nodes, changing the tag in target. You can now translate the text inside the target node
 - Step 6: Add serve and build configurations for the new locale
 - Step 7: Create new npm scripts for serving and building the Angular app with the new locale
+
+## Angular Firebase
+
+[Official Angular Library for Firebase](https://github.com/angular/angularfire2)
+
+- Step 1: Create a new project on Firebase
+- Step 2: Enable the authentication methods you need
+- Step 3: Create a database with database rules (real-time database)
+- Step 4: Install firebase sdk: 'npm install @angular/fire firebase --save'
+- Step 5: Add Firebase config to environments variable
+- Step 6: Add Firebase modules in the bootstrap app module
+
+## Angular NgRx
+
+[NgRx.io](https://ngrx.io/)
+
+- npm install @ngrx/store --save
+- npm install @ngrx/router-store --save
+- npm install @ngrx/effects --save
+- npm install @ngrx/entity --save
+- npm install @ngrx/store-devtools -D
+- Create root reducers (e.g. router state) and import StoreModule.forRoot (and StoreRouterConnectingModule.forRoot) in bootstrap module
+- In the bootstrap module imports the StoreDevtoolsModule.instrument (logOnly for production)

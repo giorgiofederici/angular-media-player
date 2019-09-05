@@ -1,0 +1,14 @@
+<mat-sidenav-container class="app-content">
+  <mat-sidenav mode="side" opened>
+    <mp-playlist></mp-playlist>
+  </mat-sidenav>
+  <mat-sidenav-content class="main-content">
+    <mp-navbar></mp-navbar>
+    <main class="main-content-inner">
+      <section class="content-area">
+        <router-outlet></router-outlet>
+      </section>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<mp-player></mp-player>
